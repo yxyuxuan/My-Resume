@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>My Resume</title>
+    <link rel="icon" href="./img/icon.jpg" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/mystyle.css" rel="stylesheet" />
+    <!--背景音乐-->
+    <embed id="music" src="./img/music.mp3"  align="bottom" height="0" width="0" autostart="true" loop="true"></embed>
+
+	<script type="text/javascript">
+         window.onload=function(){
+                $("#contact").height($(window).height());
+                $("#contact").width($(window).width());
+                $("#home").height($(window).height());
+                $("#home").width($(window).width());
+                $("#xinxi").height($(window).height());
+                $("#xinxi").width($(window).width());
+                $("#skills").height($(window).height());
+                $("#skills").width($(window).width());
+
+         };   
+    </script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+	<header>
+  	<!-- 导航 -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse nav-style" role="navigator">
+		<div class="container" >
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand middle-font" href="#" id="name">于禤</a>
+			</div>
+			<div class="collapse navbar-collapse navbar-right middle-font" id="navbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#">主页</a></li>
+                    <li><a href="#xinxi">信息</a></li>
+					<li><a href="#skills">技能</a></li>
+					<li><a href="#experience">经验</a></li>
+					<li><a href="#certificate">证书</a></li>
+					<li><a href="#contact">联系</a></li>
+					<li><a href="#" data-toggle="modal" data-target="#aboutmodal" >关于</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	</header>
+	
+	<!-- 主页 -->
+	<section id="home">
+       <div class="coverShade"></div>
+        <div class="coverContent1">
+            <!-- <img src="./img/bg.jpg" /> -->
+        </div>
+
+		<div class="container">
+			<div class="row home-container">
+				<div class="col-md-6">
+					<p class="home-hello">
+						Hello! 我 是 于 禤 ~
+						<br/>
+						应聘前端开发工程师
+					</p>
+
+				</div>
+				<div class="col-md-6">
+					<div class="home-img-border">
+						<img class="img-circle home-img" src="img/me1.jpg" alt="my picture">
+					</div>
+                    <br/>
+					<p class="small-font text-muted">
+                        将来的你一定会感激
+                        <br/>现在拼命努力的自己！
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!--基本信息-->
+    <section id="xinxi">
+        <div class="container">
+            <div class="section-header">
+                <h2>基本信息</h2>
+                <hr class="divider" />
+            </div>
+            <div class="geshi">
+                <h1>于禤</h1>
+                <p> 女    本科   现居上海  </p>
+                <p>毕业于合肥师范学院&nbsp;计算机科学与技术&nbsp;党员</p>       
+                <p>希望成为一名优秀的前端攻城狮<span>&lt;八十万马力努力里ing...></span></p>
+                <p>闲暇时逛博客，逛知乎<span>&lt;行行色色的生活、生活就应该是那样的...></span></p>
+                <p>web前端<span>&lt;接触前端，就爱上了前端，为了更好的了解它，掌握它，奋斗ing...></span></p>
+                <p>我的Github地址<a href="https://github.com/yxyuxuan">https://github.com/yxyuxuan</a></p>
+                <p>我的博客地址<a href="https://github.com/yxyuxuan">https://yxyuxuan.github.io</a></p>
+            </div>
+        </div>
+    </section>
+
+	<!-- 技能 -->
+	<section id="skills">
+		<div class="container">
+			<div class="section-header">
+				<h2>技能</h2>
+				<hr class="divider" />
+			</div>
+			<div class="row text-center">
+                <div class="col-md-3 col-sm-6 skill-container">
+                    <div id="indicatorHTML"></div>
+                    <span>HTML5</span>
+                </div>
+                <div class="col-md-3 col-sm-6 skill-container">
+                    <div id="indicatorCSS"></div>
+                    <span>CSS3</span>
+                </div>
+				<div class="col-md-3 col-sm-6 skill-container">
+					<div id="indicatorJavaScript"></div> 
+					<span>JavaScript</span>
+				</div>
+				<div class="col-md-3 col-sm-6 skill-container">
+					<div id="indicatorjQuery"></div> 
+					<span>jQuery</span>
+				</div>
+
+				<div class="col-md-3 col-sm-6 skill-container">
+					<div id="indicatorBootstrap"></div> 
+					<span>Bootstrap</span>
+				</div>
+				<div class="col-md-3 col-sm-6 skill-container">
+					<div id="indicatorCSS3"></div>
+					<span>Vue.js</span>
+				</div>
+				<div class="col-md-3 col-sm-6 skill-container">
+					<div id="indicatorAjax"></div> 
+					<span>Ajax</span>
+				</div>
+				<div class="col-md-3 col-sm-6 skill-container">
+					<div id="indicatorJava"></div>
+					<span>java</span>
+				</div>
+			</div>			
+		</div>
+	</section>
+
+	<!-- 经验 -->
+	<section id="experience">
+		<div class="container">
+			<div class="section-header">
+				<h2>经验</h2>
+				<hr class="divider" />
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="time-point">
+						<p>2016.9</p>
+							-
+						<p>2016.10</p>
+					</div>
+				</div>
+				<div class="col-md-9">
+                    <h4><a href="https://yxyuxuan.github.io/web-notes/现代浏览器博物馆/index.html">项目链接</a></h4>
+					<h4>现代浏览器博物馆</h4>
+					<p>技术栈：HTML+CSS+JavaScript+Bootstrap</p>
+                    <p>描述：主要用于展示现代流行的五大浏览器（IE，Chrome，Firefox，Safari，Opera）及这些浏览器的简述和特点。</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<hr class="time-line" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="time-point">
+						<p>2016.11</p>
+						-
+						<p>2016.11</p>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<h4><a href="https://yxyuxuan.github.io/web-notes/企业网站布局/index.html">项目链接</a></h4>
+					<h4>仿企业型网站布局</h4>
+					<p>技术栈：HTML+CSS+JavaScript+myFocus+Photoshop切图</p>
+					<p>描述：仿企业型网站首页的常见布局和内容</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<hr class="time-line" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="time-point">
+						<p>2016.12</p>
+						-
+						<p>2016.12</p>
+					</div>
+				</div>
+				<div class="col-md-9">
+                    <h4><a href="https://yxyuxuan.github.io/web-notes/仿京东网页常见效果/index.html">项目链接</a></h4>
+					<h4>仿电商型网站布局</h4>
+					<p>技术栈：HTML+CSS+JavaScript+Photoshop切图</p>
+					<p>描述：仿京东首页的常见布局和内容</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<hr class="time-line" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<div class="time-point">
+						<p>2017.3</p>
+						-
+						<p>2017.4</p>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<h4><a>排班系统</a></h4>
+					<p>技术栈：HTML5+CSS3+JavaScript+jQuery+Vue.js</p>
+					<p>描述：该系统主要是用来供北京中传数广技术有限公司合肥分公司编辑部三个部门排班使用。(三个部门一起排班，编辑部共有50多个员工，工作类型有10种:初审，终审，上传，库文件检查，新闻联播监播等 )</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<hr class="time-line" />
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<div class="time-point">
+						<p>2017.4</p>
+						-
+						<p>2017.5</p>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<h4><a href="https://github.com/yxyuxuan/qiuzhi">项目代码链接</a></h4>
+					<h4>基于JavaWeb的求职招聘系统</h4>
+					<p>技术栈：HTML5+CSS3+JavaScript+jQuery+Vue.js</p>
+					<p>描述：求职招聘系统是供求职者求职和企业招聘人才。</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- 证书 -->
+	<section id="certificate">
+		<div class="container text-center">
+			<div class="section-header">
+				  <h2>证书</h2>
+				  <hr class="divider" />
+			</div>
+			<canvas id="canvas" width="800px" height="600px"></canvas>
+			
+		</div>
+	</section>
+	
+	<!-- 联系我 -->
+	<section id="contact">
+		<div class="container">
+			<div class="section-header">
+				  <h2>联系我</h2>
+				  <hr class="divider" />
+                <p>感谢你的观看！</p>
+                <br>
+                <p>你们需要我吗?让我们取得联系吧!</p>
+			</div>
+            <br/>
+            <br/>
+			<div class="contact-container" >
+
+				<div class="row">
+					<div class="col-md-7">
+						<p><img src="img/tell.png" alt="Tell   ：" />  +86 136 5569 2997</p>
+					</div>
+					<div class="col-md-5">
+						<p><img src="img/mail.png" alt="E-Mail ：" /> 1924442613@qq.com</p>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-5">
+						<p><img src="img/qq.png" alt="Q Q    ：" />  1924442613</p>
+					</div>
+					<div class="col-md-7">
+						<p><img src="img/github.png" alt="github：" /> <a href="https://yxyuxuan.github.io/">https://yxyuxuan.github.io</a></p>
+					</div>
+				</div>
+
+				<p class="addr"><img src="img/address.png" alt="Address：" />上海-静安区</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- footer -->		
+	<footer>
+			<p>Copyright @ 2016 yuxuan</p>
+	</footer>
+	
+	<!--弹出框 -->
+	<div class="modal fade" id="aboutmodal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title">关于</h4>
+				</div>
+				<div class="modal-body">
+					<p>
+						这是一款遵循HTML5标准的单页面网页简历，由于禤于2016年7月制作用于求职展示。
+					</p>
+					<p class="small-font" >
+						作品可以自适应不同尺寸设备，经测试，在火狐、Chrome、
+						IE及其他IE内核浏览器均能正常显示。
+					</p>
+					<p>
+						作品基于jQuery和Bootstrap开发，并使用了jQuery插件radialIndicator处理圆形百分比。
+					</p>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">知道了</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    <script src="js/jquery-2.1.4.js"></script>
+   	<script src="js/bootstrap.min.js"></script>
+	<script src="js/radialIndicator.js"></script>
+	<script charset="utf-8" src="js/myJS.js"></script>
+  </body>
+</html>

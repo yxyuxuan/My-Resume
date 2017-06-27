@@ -1,0 +1,215 @@
+	/*全局样式*/
+	*{
+        padding:0;
+        margin:0;
+
+    }
+    body{
+        font:16px "宋体" ;
+		overflow-x:hidden;
+        height:100%;
+
+	}
+	
+	.divider{
+		height:4px;
+		width:70px;
+		background-color:#EE7600;
+	}
+	
+	.section-header{
+		text-align:center;
+		margin-top:110px;
+		margin-bottom:40px;
+		font-family: "微软雅黑"
+	}
+	
+	.middle-font{
+		font-size:30px;
+	}
+	
+	.small-font{
+		font-size:18px;
+        color: #968cc6;
+	}
+	
+	
+	/*导航*/
+	.nav-style{
+		height:60px;
+		padding-top:6px;
+		opacity:1;
+	}
+	#navbar ul li{
+		font-family: "宋体";
+		font-weight:600; 
+	}
+	#name{
+		font-weight: 600;
+	}
+	/*主页*/
+	#home{
+		background-image:url(../img/b.jpg) ;
+		background-attachment: fixed;
+        position: relative;
+	}
+
+	.home-container{
+		margin:200px auto 0 auto;
+		text-align:center;
+	}
+
+	
+	.home-hello{
+		margin-top:35px;
+		font-size:30px;
+		line-height:50px;
+		color: #575df5;
+		font-family: "微软雅黑"
+	}
+	
+	.home-img-border{
+		margin-left:auto;
+		margin-right:auto;
+		border-radius: 100%;
+		border:1px solid white;
+		padding:6px;
+		width:244px;
+		height:244px;
+	}
+	
+	.home-img{
+		width:230px;
+		height:230px;
+	}
+
+    /*背景图片*/
+    #home.coverContent1 img,#home .coverShade{width:100%; height:100%; position:absolute; top:0; left:0;}
+    #home .coverShade{opacity:0.2;background:#087; z-index:5;}
+    #home  .coverContent1{
+        height:100%; position:absolute; top:0; left:0;
+        -webkit-animation:27s linear infinite coverMove1;
+        -moz-animation:27s linear infinite coverMove1;}
+    @-webkit-keyframes coverMove1{
+        0%{left:0;}
+        50%{left:-550px; }
+        100%{left:0;}
+    }
+    @-moz-keyframes coverMove1{
+        0%{left:0;}
+        50%{left:-550px; }
+        100%{left:0;}
+    }
+
+	/*技能*/
+	#skills{
+        background: #caffff;
+		background-attachment: fixed;
+		min-height:800px;
+
+	}
+	
+	.skill-container{
+		margin-bottom:80px
+	}
+	
+	.skill-container > span {
+		color:#FF7F00;
+		font-size:18px;
+	}
+	
+	/*基本信息*/
+	#xinxi {
+        background-color: lightblue;
+		height:100%;
+		width: 100%；
+	}
+
+	#xinxi .geshi{
+        text-align: left;
+        list-style: none;
+        font-size: 20px;
+        color:#000000;
+    }
+    #xinxi .geshi h1{font-size:30px; font-weight:900; text-shadow: 2px 2px 5px #204bff; color: #204bff;}
+    #xinxi .geshi p{font-size:17px; font-weight:bolder; color:#2C2929; padding:10px 0 10px 20px;}
+    #xinxi .geshi p span{height:40px; font-size:12px; color: #ececfa;}
+
+	.article-title{
+		color:green;
+		margin-top:0;
+	}
+	
+	.article-title:hover{
+		color:#FF7F00;
+	}
+
+	/*经历*/	
+	#experience {
+		background-color: #afd0f5;
+		padding-bottom:80px;
+        min-height:500px;
+	}
+	
+	.time-point{
+		background-color: white;
+		border: 1px solid #eee;
+		border-radius: 100%;
+		height: 150px;
+		width: 150px;
+		text-align:center;
+		padding:30px 0;
+		margin:0 auto;
+	}
+	
+	#experience .col-md-9 > h4:nth-child(1){
+		color:#FF7F00;
+	}
+	
+	.time-line{
+		height:100px;
+		width:1px;
+		background-color: #6d6d86;
+		margin:0 auto;
+		border-width:0;
+	}
+
+    /*证书*/
+    #certificate{
+        background-color: #bcffe1;
+        min-height: 1080px;
+    }
+
+	/*联系我*/
+
+    #contact{
+        background-color: #b0e5e4;
+    }
+     #contact a{
+     	color: black;
+     }
+      #contact .addr{
+      	text-align: center;
+      	margin-left: -50px;
+      }
+	.contact-container{
+
+		text-align:center;
+		width:60%;
+		margin:0 auto;
+		margin-bottom:80px;
+		margin-top:50px;
+	}
+	.section-header{
+        font-size: 21px;
+    }
+
+	footer{
+		font-size:12px;
+		background-color:black;
+		height:60px;
+		line-height:60px;
+		opacity:0.9;
+		text-align:center;
+	}
+
