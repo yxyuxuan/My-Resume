@@ -1,14 +1,15 @@
 $(function(){
 
 		//div的高度和宽度等于屏幕的高度和宽度
-          $("#contact").height($(window).height());
-          $("#contact").width($(window).width());
+         
           $("#home").height($(window).height());
           $("#home").width($(window).width());
           $("#xinxi").height($(window).height());
           $("#xinxi").width($(window).width());
           $("#skills").height($(window).height());
           $("#skills").width($(window).width());   
+          $("#contact").height($(window).height());
+          $("#contact").width($(window).width());
 
          //音乐
         function view(){
